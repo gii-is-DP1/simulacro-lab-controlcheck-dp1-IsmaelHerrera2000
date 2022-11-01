@@ -33,7 +33,7 @@
                     <c:out value="${product.price} "/>
                 </td>
  				<td>       
-                    <c:out value="${product.productTypeId.id} "/>
+                    <c:out value="${product.productType.id} "/>
                 </td>
                 <td> 
                     <a href="/products/${product.id}/edit"> 
@@ -49,5 +49,5 @@
         </c:forEach>
         </tbody>
     </table>
-	<a class="btn btn-default" href="/products/new">Crear nuevo product</a>
+	<a class="btn btn-default" href="/product/create">Crear nuevo product</a>
 </idus_martii:layout>
